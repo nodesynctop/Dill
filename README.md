@@ -159,7 +159,8 @@ ps -ef | grep dill-node | grep -v grep | awk '{print $2}' | xargs kill
 ```
 rm -rf $HOME/dill/health_check.sh && rm -rf $HOME/dill/start_light.sh && \
 wget -O  $HOME/dill/start_light.sh https://raw.githubusercontent.com/nodesynctop/Dill/main/start_light.sh && \
-wget -O  $HOME/dill/health_check.sh https://raw.githubusercontent.com/nodesynctop/Dill/main/health_check.sh
+wget -O  $HOME/dill/health_check.sh https://raw.githubusercontent.com/nodesynctop/Dill/main/health_check.sh && |
+chmod +x health_check.sh && start_light.sh
 ```
 ### 5.2 Start node 
 ```
