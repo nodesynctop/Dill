@@ -73,4 +73,44 @@ echo nodesync@123 > walletPw.txt
 ```
 ./start_light.sh -p walletPw.txt
 ```
+`sample output`
+
+```
+ubuntu@xxxxx:~/dill$ ./start_light.sh -p walletPw.txt
+Option --pwdfile, argument 'walletPw.txt'
+Remaining arguments:
+using password file at walletPw.txt
+start light node
+start light node done
+ubuntu@xxxxx:~/dill$ nohup: redirecting stderr to stdout
+```
+### 2.6 Check health node
+```
+./health_check.sh -v
+```
+
+## 3. Staking
+
+### 3.1 Faucet
+
+Get faucet into your wallet from the Andes channel. Your wallet form before on galxe.
+
+Use  WinSCP or Terminus, Then go to folder `/dill/validator_keys` directory and get your `deposit_data-xxxx.json` file and upload it to the site bellow.
+
+### 3.2 Visit https://staking.dill.xyz/
+
+Upload deposit_data-*.json
+
+![dillxyz1](https://github.com/user-attachments/assets/01ecd1a4-0fa3-4b4c-ad4f-1e638f9b643c)
+
+Connect to MetaMask，make sure you have enough balance（>2500 DILL）
+
+![dillxyz2](https://github.com/user-attachments/assets/9c393a9a-a9a8-43fb-b867-afdfb03aaffa)
+
+Send deposit，using MetaMask to send a deposit transaction
+
+![dillxyz3](https://github.com/user-attachments/assets/7f4008e0-35d3-4484-b219-e149d3d4059b)
+
+
+
 
