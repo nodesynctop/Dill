@@ -113,6 +113,36 @@ Send deposit，using MetaMask to send a deposit transaction
 
 ![dillxyz3](https://github.com/user-attachments/assets/7f4008e0-35d3-4484-b219-e149d3d4059b)
 
+## 4. Services Management
+```
+cd $HOME/dill
+```
+
+### 4.1 Check health node
+```
+./health_check.sh -v
+```
+### 4.2 Stop node
+
+```
+ps -ef | grep dill-node | grep -v grep | awk '{print $2}' | xargs kill
+```
+### 4.3 Start node
+
+```
+./start_light.sh -p walletPw.txt
+```
+### 4.4 Check logs
+
+```
+tail -f -n 100 $HOME/dill/light_node/logs/dill.log
+```
+
+
+
+
+
+
 
 
 
