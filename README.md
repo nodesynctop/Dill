@@ -10,6 +10,10 @@ Explorer: https://andes.dill.xyz/
 
 Guide Docs: https://past-chokeberry-e85.notion.site/andes-doc-a23a9f71a85a4be9a6737e54d2674060
 
+## Minimum hardware requirement
+
+2 Cores, 2G Ram,  min 40G SSD, Ubuntu 22.04
+
 ## 1. Server preparation
 ```
 sudo apt update && apt upgrade -y
