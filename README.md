@@ -54,7 +54,7 @@ Your keys can be found at: ./validator_keys
 Press any key.
 ubuntu@ip-xxxx:~/dill$
 ```
-`This will generate the validator keys and save them in  ./validator_keys directory `
+This will generate the validator keys and save them in  ./validator_keys directory 
 
 ```
 ls -ltr ./validator_keys
