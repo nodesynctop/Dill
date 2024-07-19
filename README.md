@@ -88,8 +88,7 @@ ubuntu@xxxxx:~/dill$ nohup: redirecting stderr to stdout
 ```
 ./health_check.sh -v
 ```
-
-![dillxyz3](https://github.com/user-attachments/assets/ff62c184-0d5d-4ce5-8711-e1bf85be46f1)
+![dillxyz4](https://github.com/user-attachments/assets/52690e7d-51f1-4b30-be8f-5b9a568dfd64)
 
 
 ## 3. Staking
