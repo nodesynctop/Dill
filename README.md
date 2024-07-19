@@ -88,6 +88,7 @@ ubuntu@xxxxx:~/dill$ nohup: redirecting stderr to stdout
 ```
 ./health_check.sh -v
 ```
+
 ![dillxyz3](https://github.com/user-attachments/assets/ff62c184-0d5d-4ce5-8711-e1bf85be46f1)
 
 
