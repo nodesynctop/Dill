@@ -59,4 +59,14 @@ This will generate the validator keys and save them in  ./validator_keys direct
 ```
 ls -ltr ./validator_keys
 ```
+### 2.3 Import your keys to your keystore
+```
+./dill-node accounts import --andes --wallet-dir ./keystore --keys-dir validator_keys/ --accept-terms-of-use
+```
+### 2.4 Write the password you configured in the previous step into a file:
+```
+echo nodesync@123 > walletPw.txt
+```
+`nodesync@123` is your password, You can change it.
+
 
