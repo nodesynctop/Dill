@@ -93,7 +93,7 @@ ubuntu@xxxxx:~/dill$ nohup: redirecting stderr to stdout
 
 ### 3.1 Faucet
 
-Get faucet into your wallet from the Andes channel. Your wallet form before on galxe.
+Get faucet into your EVM wallet from the Andes channel. Your wallet form before on galxe.
 
 Use  WinSCP or Terminus, Then go to folder `/dill/validator_keys` directory and get your `deposit_data-xxxx.json` file and upload it to the site bellow.
 
