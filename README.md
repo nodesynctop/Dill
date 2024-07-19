@@ -137,9 +137,9 @@ ps -ef | grep dill-node | grep -v grep | awk '{print $2}' | xargs kill
 ```
 tail -f -n 100 $HOME/dill/light_node/logs/dill.log
 ```
-### Check on Explorer: https://andes.dill.xyz/validators
+### Check on Explorer
 
-Copy your pubkey in file deposit_data-xxxx.json and search it on explorer.
+Copy your pubkey in file deposit_data-xxxx.json and search it on explorer: https://andes.dill.xyz/validators
 
 
 
