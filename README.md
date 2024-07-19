@@ -29,8 +29,7 @@ tar -xzvf dill.tar.gz && cd dill
 
 `sample output`
 
-````
-ubuntu@ip-xxxx:~/dill$ ./dill_validators_gen new-mnemonic --num_validators=1 --chain=andes --folder=./
+`ubuntu@ip-xxxx:~/dill$ ./dill_validators_gen new-mnemonic --num_validators=1 --chain=andes --folder=./
 
 ***Using the tool on an offline and secure device is highly recommended to keep your mnemonic safe.***
 
@@ -52,5 +51,4 @@ Your keys can be found at: ./validator_keys
 
 
 Press any key.
-ubuntu@ip-xxxx:~/dill$
-````
+ubuntu@ip-xxxx:~/dill$`
