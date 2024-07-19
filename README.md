@@ -69,4 +69,8 @@ echo nodesync@123 > walletPw.txt
 ```
 `nodesync@123` is your password, You can change it.
 
+### 2.5 Start the light validator node
+```
+./start_light.sh -p walletPw.txt
+```
 
