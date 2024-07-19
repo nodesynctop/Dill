@@ -145,6 +145,32 @@ tail -f -n 100 $HOME/dill/light_node/logs/dill.log
 
 Copy your pubkey in file deposit_data-xxxx.json and search it on explorer: https://andes.dill.xyz/validators
 
+## 5. Fix port 8080 (change to 8081)
+
+### 5.1 Stop node
+```
+cd $HOME/dill
+```
+
+```
+ps -ef | grep dill-node | grep -v grep | awk '{print $2}' | xargs kill
+```
+### 5.1 Update file (use port 8081)
+```
+rm -rf $HOME/dill/health_check.sh && rm -rf $HOME/dill/start_light.sh && \
+wget -O  $HOME/dill/start_light.sh https://raw.githubusercontent.com/nodesynctop/Dill/main/start_light.sh && \
+wget -O  $HOME/dill/health_check.sh https://raw.githubusercontent.com/nodesynctop/Dill/main/health_check.sh
+```
+### 5.2 Start node 
+```
+./start_light.sh -p walletPw.txt
+```
+
+
+
+
+
+
 
 
 
