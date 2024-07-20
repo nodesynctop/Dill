@@ -10,6 +10,16 @@ Explorer: https://andes.dill.xyz/
 
 Guide Docs: https://past-chokeberry-e85.notion.site/andes-doc-a23a9f71a85a4be9a6737e54d2674060
 
+
+| Network Name | Dill Testnet Andes |
+| --- | --- |
+| RPC URL | [https://rpc-andes.dill.xyz/](https://rpc-andes.dill.xyz/) |
+| Chain ID | 558329 |
+| Currency Symbol | DILL |
+| Explorer URL | [https://andes.dill.xyz/](https://andes.dill.xyz/) |
+
+
+
 ## Minimum hardware requirement
 
 2 Cores, 2G Ram,  min 40G SSD, Ubuntu 22.04
